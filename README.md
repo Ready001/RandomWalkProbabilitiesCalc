@@ -26,7 +26,7 @@ I've also made a table to show some key probabilities. The values are the number
 ## Calculation methodology
 I researched the probabilities of the various predatory mechanics and how they worked, and then made a simulation based on that.
 
-Probabilities for the simulation come from the website <a href="https://paimon.moe/wish/tally">paimon.moe</a> as its empirical data shows that the chance of pulling a five star is not even.
+Probabilities for the simulation come from the website <a href="https://paimon.moe/wish/tally">paimon.moe</a> as its empirical data shows that the chance of pulling a five star is not even. I would like to credit jogerj#8222 for help with the website's api.
 
  The simulation was run with number of pulls in the range from 0 to 7500 with gaps of 10 pulls (So results are rounded to the nearest ten). At each pull level it was run at, it was run with 16,000 trials which were then averaged. The number of trials was chosen by minimizing std while also making sure it doesn't run for too long (I timed it to run overnight while I sleep). 16000 results in a standard deviation of 0.102 at 6000 pulls (high end of the range) and 0.168 at 100 pulls (low end of the range), so assuming a normal distribution, 97% of the probability values should be within around 0.204% to 0.336%.
 
