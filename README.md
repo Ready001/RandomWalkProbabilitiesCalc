@@ -9,18 +9,22 @@ This is a random walk simulation to calculate the probability of getting specifi
 
 ## Results of calculations
 In Genshin version 3.6, there will be a total of 7 standard 5 star characters. The chance to get one of them given a number of pulls on the character banner can be seen in these two graphs:
+
 ![7 characters char banner graph](char_7_full.png)
 ![7 characters char banner graph](char_7_partial.png)
 
 By the time people get to even just a 60% chance to get a specific standard banner character, there will likely be an even higher number of standard 5 star characters. The following two graphs are calculations in the hypothetical situation that the number of standard five stars increases by 2 to 9.
+
 ![9 characters char banner graph](char_9_full.png)
 ![9 characters char banner graph](char_9_partial.png)
 
 The next two graphs are the chances of getting a specific standard character from the 3.6 standard banner given a number of pulls. Note that the range on the y-axis is [0,100] in this zoomed in version, but was [0,50] in the previous two zoomed in graphs.
+
 ![standard banner graph](std_c_full.png)
 ![standard banner graph](std_c_partial.png)
 
 I've also made a table to show some key probabilities. The values are the number of pulls it takes for the probabilities in the first column. All number of pulls are rounded to the nearest ten.
+
 ![specific standard char table](table.png)
 
 ## Calculation methodology
